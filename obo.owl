@@ -1,0 +1,802 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontologies.khaos.uma.es/obo/"
+     xml:base="http://ontologies.khaos.uma.es/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://ontologies.khaos.uma.es/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="https://schema.org/">
+    <owl:Ontology rdf:about="http://ontologies.khaos.uma.es/obo/">
+        <owl:versionIRI rdf:resource="http://ontologies.khaos.uma.es/obo/1.0.0"/>
+        <dc:source rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Khaos Research Group, University of Málaga</dc:source>
+        <terms:bibliographicCitation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Paneque, Manuel, María del Mar Roldán-García, and José García-Nieto. 2023. &quot;A Semantic Model for Enhancing Data-Driven Open Banking Services&quot; Applied Sciences 13, no. 3: 1447. https://doi.org/10.3390/app13031447</terms:bibliographicCitation>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-22T09:00:00</terms:created>
+        <terms:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">José García-Nieto, Universidad de Málaga</terms:creator>
+        <terms:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Manuel Paneque, Universidad de Málaga</terms:creator>
+        <terms:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">María del Mar Roldán-García, Universidad de Málaga</terms:creator>
+        <terms:description xml:lang="en">This ontology domain represents the different actors and information generated in open banking services. More specifically, bank statements and invoice management systems are contextualised to allow data reconciliation tasks.</terms:description>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-22T10:00:00</terms:issued>
+        <terms:license rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">https://opensource.org/licenses/MIT</terms:license>
+        <terms:publisher rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Khaos Research Group, University of Málaga</terms:publisher>
+        <terms:title xml:lang="en">Open Banking Ontology</terms:title>
+        <bibo:doi rdf:resource="https://doi.org/10.3390/app13031447"/>
+        <bibo:status rdf:resource="http://purl.org/ontology/bibo/status/accepted"/>
+        <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">obo</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">http://ontologies.khaos.uma.es/obo</vann:preferredNamespaceUri>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Open Banking Ontology</rdfs:label>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">1.0.0</owl:versionInfo>
+        <schema:logo rdf:resource="https://pub.mdpi-res.com/applsci/applsci-13-01447/article_deploy/html/images/applsci-13-01447-g001.png"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/doi -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/doi"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- https://schema.org/logo -->
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/logo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/customerHasAddress -->
+
+    <owl:ObjectProperty rdf:about="http://ontologies.khaos.uma.es/obo/customerHasAddress">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/StatementsCustomer"/>
+        <rdfs:range rdf:resource="http://ontologies.khaos.uma.es/obo/Address"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/customerHasEmail -->
+
+    <owl:ObjectProperty rdf:about="http://ontologies.khaos.uma.es/obo/customerHasEmail">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/StatementsCustomer"/>
+        <rdfs:range rdf:resource="http://ontologies.khaos.uma.es/obo/Email"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/customerHasPhone -->
+
+    <owl:ObjectProperty rdf:about="http://ontologies.khaos.uma.es/obo/customerHasPhone">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/StatementsCustomer"/>
+        <rdfs:range rdf:resource="http://ontologies.khaos.uma.es/obo/Phone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/hasStastementCustomer -->
+
+    <owl:ObjectProperty rdf:about="http://ontologies.khaos.uma.es/obo/hasStastementCustomer">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Company"/>
+        <rdfs:range rdf:resource="http://ontologies.khaos.uma.es/obo/StatementsCustomer"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Item has statement customer</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has Statement Customer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/itemHasCompany -->
+
+    <owl:ObjectProperty rdf:about="http://ontologies.khaos.uma.es/obo/itemHasCompany">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Item"/>
+        <rdfs:range rdf:resource="http://ontologies.khaos.uma.es/obo/Company"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">item has company</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has company</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/itemHasCustomer -->
+
+    <owl:ObjectProperty rdf:about="http://ontologies.khaos.uma.es/obo/itemHasCustomer">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Item"/>
+        <rdfs:range rdf:resource="http://ontologies.khaos.uma.es/obo/Customer"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Item has customer</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has customer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/officeHasBank -->
+
+    <owl:ObjectProperty rdf:about="http://ontologies.khaos.uma.es/obo/officeHasBank">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Office"/>
+        <rdfs:range rdf:resource="http://ontologies.khaos.uma.es/obo/Bank"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicates that an office is part of a bank</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Office has bank</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/participating -->
+
+    <owl:ObjectProperty rdf:about="http://ontologies.khaos.uma.es/obo/participating">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/StatementsCustomer"/>
+        <rdfs:range rdf:resource="http://ontologies.khaos.uma.es/obo/AccountObj"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/statementHasConcepts -->
+
+    <owl:ObjectProperty rdf:about="http://ontologies.khaos.uma.es/obo/statementHasConcepts">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Statement"/>
+        <rdfs:range rdf:resource="http://ontologies.khaos.uma.es/obo/Concept"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">this property join statements with their concepts</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statement has concepts</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/statementHasOffice -->
+
+    <owl:ObjectProperty rdf:about="http://ontologies.khaos.uma.es/obo/statementHasOffice">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Statement"/>
+        <rdfs:range rdf:resource="http://ontologies.khaos.uma.es/obo/Office"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicates the office where the statement has been made</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statement has office</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/accountNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/accountNumber">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ontologies.khaos.uma.es/obo/AccountObj"/>
+                    <rdf:Description rdf:about="http://ontologies.khaos.uma.es/obo/Statement"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">account number</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Account number</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/addressField -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/addressField">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">address of a client</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Address</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/bankGroupId -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/bankGroupId">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Bank"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">group code assigned by the banking service provider</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bank group id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/bankId -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/bankId">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Bank"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bank identifier</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/bankName -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/bankName">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Bank"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name of the bank</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bank name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/bankOffice -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/bankOffice">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Office"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">office number</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bank office</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/businessName -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/businessName">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ontologies.khaos.uma.es/obo/Company"/>
+                    <rdf:Description rdf:about="http://ontologies.khaos.uma.es/obo/Customer"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Business name</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Business name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/companyId -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/companyId">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Company"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Company identifier</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Company id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/conceptField -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/conceptField">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Concept"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concepts associated with movement. It is the concept field that the user fills in when making a transfer</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concept</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/corporationId -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/corporationId">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Company"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifier of the corporation</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corporation id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/currencyCode -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/currencyCode">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ontologies.khaos.uma.es/obo/Company"/>
+                    <rdf:Description rdf:about="http://ontologies.khaos.uma.es/obo/Item"/>
+                    <rdf:Description rdf:about="http://ontologies.khaos.uma.es/obo/Statement"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Currency code</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Currency code</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/customerBirthDate -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/customerBirthDate">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/StatementsCustomer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birth date</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">customer&apos;s date of birth</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/customerDocument -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/customerDocument">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/StatementsCustomer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">customer identification document</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Document</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/customerId -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/customerId">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Customer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Customer identifier</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Customer id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/customerNames -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/customerNames">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/StatementsCustomer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">customer name</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Customer name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/emailField -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/emailField">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Email"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">email of a client</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Email</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/fiscalId -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/fiscalId">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ontologies.khaos.uma.es/obo/Company"/>
+                    <rdf:Description rdf:about="http://ontologies.khaos.uma.es/obo/Customer"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fiscal identifier</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fiscal id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/indicator -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/indicator">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Item"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">invoice descriptor</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicator value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/itemAmount -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/itemAmount">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Item"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">item amount in the default currency associated with the company.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amount</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/itemClearingDate -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/itemClearingDate">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Cleared"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">item clearing date</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clearing date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/itemCurrencyAmt -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/itemCurrencyAmt">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Item"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Item quantity</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Currency amt</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/itemId -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/itemId">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Item"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">item id</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Item id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/itemIssueDate -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/itemIssueDate">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Item"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">item issue date</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Issue date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/itemMaturityDate -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/itemMaturityDate">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Item"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maturity date</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maturity date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/participation -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/participation">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/AccountObj"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">customer participation in an account</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Participation</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/phoneField -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/phoneField">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Phone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">customer&apos;s phone</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phone</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/statementAmount -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/statementAmount">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Statement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amount, expressed in cents. If it is negative, it indicates a charge on the account (money outflow); if it is positive, it indicates an income (money inflow)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amount</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/statementBalance -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/statementBalance">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Statement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">total amount in the account once the statement has been applied (in cents)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balance</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/statementBankReference -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/statementBankReference">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Statement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reference</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bank reference</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/statementBeneficiary -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/statementBeneficiary">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Statement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beneficiary of the statement</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beneficiary</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/statementCategory -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/statementCategory">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Statement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">category associated with the movement by the banking service provider</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/statementDepositDate -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/statementDepositDate">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Statement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">statement date</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deposit date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/statementId -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/statementId">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Statement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">statement identifier</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/statementImportDate -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/statementImportDate">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Statement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date of movement reading</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Import date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/statementValueDate -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.khaos.uma.es/obo/statementValueDate">
+        <rdfs:domain rdf:resource="http://ontologies.khaos.uma.es/obo/Statement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">statement effective date</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Value date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/AccountObj -->
+
+    <owl:Class rdf:about="http://ontologies.khaos.uma.es/obo/AccountObj">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Account Obj</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/Address -->
+
+    <owl:Class rdf:about="http://ontologies.khaos.uma.es/obo/Address">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Address</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/Bank -->
+
+    <owl:Class rdf:about="http://ontologies.khaos.uma.es/obo/Bank">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class models the properties of a bank.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/Cleared -->
+
+    <owl:Class rdf:about="http://ontologies.khaos.uma.es/obo/Cleared">
+        <rdfs:subClassOf rdf:resource="http://ontologies.khaos.uma.es/obo/Item"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cleared</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/Company -->
+
+    <owl:Class rdf:about="http://ontologies.khaos.uma.es/obo/Company">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Company</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/Concept -->
+
+    <owl:Class rdf:about="http://ontologies.khaos.uma.es/obo/Concept">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/Customer -->
+
+    <owl:Class rdf:about="http://ontologies.khaos.uma.es/obo/Customer">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Customer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/Email -->
+
+    <owl:Class rdf:about="http://ontologies.khaos.uma.es/obo/Email">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Email</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/Item -->
+
+    <owl:Class rdf:about="http://ontologies.khaos.uma.es/obo/Item">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Item</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/Office -->
+
+    <owl:Class rdf:about="http://ontologies.khaos.uma.es/obo/Office">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class models the properties of a bank office.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Office</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/Opened -->
+
+    <owl:Class rdf:about="http://ontologies.khaos.uma.es/obo/Opened">
+        <rdfs:subClassOf rdf:resource="http://ontologies.khaos.uma.es/obo/Item"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opened</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/Phone -->
+
+    <owl:Class rdf:about="http://ontologies.khaos.uma.es/obo/Phone">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/Statement -->
+
+    <owl:Class rdf:about="http://ontologies.khaos.uma.es/obo/Statement">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class models the properties of bank movements.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontologies.khaos.uma.es/obo/StatementsCustomer -->
+
+    <owl:Class rdf:about="http://ontologies.khaos.uma.es/obo/StatementsCustomer">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Customer</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
